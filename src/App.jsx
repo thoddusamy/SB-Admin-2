@@ -11,6 +11,7 @@ import Border from './Components/Utilities/Border';
 import Animation from './Components/Utilities/Animation';
 import Other from './Components/Utilities/Other';
 import LoginPage from './Components/LoginPage';
+
 import RegisterPage from './Components/RegisterPage';
 import ForgotPassword from './Components/ForgotPassword';
 import Page404 from './Components/Page404';
