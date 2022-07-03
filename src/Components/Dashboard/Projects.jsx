@@ -35,9 +35,9 @@ function Projects() {
             </div>
             <div className="card-body">
                 {
-                    projectData.map((item) => {
+                    projectData.map((item, index) => {
                         return (
-                            <>
+                            <div key={index}>
                                 <h4 className="small font-weight-bold">{item.title}<span
                                     className="float-right">
                                     {item.percentage == 100 ? "Compelete!" : `${item.percentage}%`}</span>
@@ -47,7 +47,7 @@ function Projects() {
                                         style={{ width: `${item.percentage}%` }}
                                         aria-valuenow={item.percentage} aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                            </>
+                            </div>
                         )
                     })
                 }

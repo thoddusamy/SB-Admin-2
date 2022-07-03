@@ -22,12 +22,12 @@ function Dashboard() {
                 <AreaChart />
                 <PieChart />
             </div>
-            <div class="row">
-                <div class="col-lg-6 mb-4">
+            <div className="row">
+                <div className="col-lg-6 mb-4">
                     <Projects />
                     <Colors />
                 </div>
-                <div class="col-lg-6 mb-4">
+                <div className="col-lg-6 mb-4">
                     <Illustrations />
                     <Approach />
                 </div>

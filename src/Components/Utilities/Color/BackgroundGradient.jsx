@@ -28,18 +28,18 @@ function BackgroundGradient() {
         },
     ]
     return (
-        <div class="col-lg-4">
+        <div className="col-lg-4">
 
             {/* <!-- Background Gradient Utilities --> */}
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
+            <div className="card shadow mb-4">
+                <div className="card-header py-3">
+                    <h6 className="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
                     </h6>
                 </div>
-                <div class="card-body">
+                <div className="card-body">
                     {
                         colorData.map((item) => {
-                            return <div class={`px-3 py-5 bg-gradient-${item.color} text-white`}>{`.bg-gradient-${item.color}`}</div>
+                            return <div className={`px-3 py-5 bg-gradient-${item.color} text-white`}>{`.bg-gradient-${item.color}`}</div>
                         })
                     }
                 </div>

@@ -32,13 +32,13 @@ function SplitButtons() {
         },
     ]
     return (
-        <div class="col-lg-6">
+        <div className="col-lg-6">
 
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Split Buttons with Icon</h6>
+            <div className="card shadow mb-4">
+                <div className="card-header py-3">
+                    <h6 className="m-0 font-weight-bold text-primary">Split Buttons with Icon</h6>
                 </div>
-                <div class="card-body">
+                <div className="card-body">
                     <p>Works with any button colors, just use the <code>.btn-icon-split</code> class and
                         the markup in the examples below. The examples below also use the
                         <code>.text-white-50</code> helper class on the icons for additional styling,
@@ -47,32 +47,32 @@ function SplitButtons() {
                         splitBtnData.map((item) => {
                             return (
                                 <>
-                                    <a href="#" class={`btn btn-${item.color} btn-icon-split`}>
-                                        <span class="icon text-white-50">
-                                            <i class={`fas fa-${item.icon}`}></i>
+                                    <a href="#" className={`btn btn-${item.color} btn-icon-split`}>
+                                        <span className="icon text-white-50">
+                                            <i className={`fas fa-${item.icon}`}></i>
                                         </span>
-                                        <span class="text" style={{ textTransform: 'capitalize' }}>{`Split Button ${item.color}`}</span>
+                                        <span className="text" style={{ textTransform: 'capitalize' }}>{`Split Button ${item.color}`}</span>
                                     </a>
-                                    <div class="my-2"></div>
+                                    <div className="my-2"></div>
                                 </>
                             )
                         })
                     }
 
-                    <div class="mb-4"></div>
+                    <div className="mb-4"></div>
                     <p>Also works with small and large button classes!</p>
-                    <a href="#" class="btn btn-primary btn-icon-split btn-sm">
-                        <span class="icon text-white-50">
-                            <i class="fas fa-flag"></i>
+                    <a href="#" className="btn btn-primary btn-icon-split btn-sm">
+                        <span className="icon text-white-50">
+                            <i className="fas fa-flag"></i>
                         </span>
-                        <span class="text">Split Button Small</span>
+                        <span className="text">Split Button Small</span>
                     </a>
-                    <div class="my-2"></div>
-                    <a href="#" class="btn btn-primary btn-icon-split btn-lg">
-                        <span class="icon text-white-50">
-                            <i class="fas fa-flag"></i>
+                    <div className="my-2"></div>
+                    <a href="#" className="btn btn-primary btn-icon-split btn-lg">
+                        <span className="icon text-white-50">
+                            <i className="fas fa-flag"></i>
                         </span>
-                        <span class="text">Split Button Large</span>
+                        <span className="text">Split Button Large</span>
                     </a>
                 </div>
             </div>
